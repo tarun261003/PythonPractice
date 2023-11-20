@@ -1,0 +1,6 @@
+print("Enter the First heads of linked list 1:")
+lst1=list(map(int,input().split()))
+print("Enter the First heads of linked list 2:")
+lst2=list(map(int,input().split()))
+lst1.extend(lst2)
+print(sorted(lst1))
